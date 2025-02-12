@@ -1,0 +1,14 @@
+routes:
+  /:
+    template: default
+  /:*:
+    template: default
+
+collections:
+  /: 
+    permalink: /{slug}/
+    template: default
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/

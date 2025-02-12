@@ -1,0 +1,23 @@
+{
+  "name": "ghost-headless-theme",
+  "version": "1.0.0",
+  "description": "A minimal Ghost theme for headless usage",
+  "engines": {
+    "ghost": ">=5.0.0"
+  },
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.png"
+  },
+  "author": {
+    "name": "Your Name",
+    "email": "your.valid@email.com"
+  },
+  "keywords": [
+    "ghost-theme",
+    "headless",
+    "ghost"
+  ],
+  "config": {
+    "posts_per_page": 25
+  }
+}
